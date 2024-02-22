@@ -10,6 +10,9 @@ ul,li,menu{
 .my-bg-dark{
     background-color: var(--bg-top-bottom);
 }
+.my-bg-green{
+    background-color: var(--bg-section-green);
+}
 /*DEBUG**************************************/
 .debug header .col-auto{
     background-color: aqua;
