@@ -1,0 +1,16 @@
+:root{
+    --bg-top-bottom:#2C3E50;
+    --bg-section-green:#1ABC9C;
+}
+ul,li,menu{
+    list-style: none;
+}
+
+/*UTILITES***********************************/
+.my-bg-dark{
+    background-color: var(--bg-top-bottom);
+}
+/*DEBUG**************************************/
+.debug header .col-auto{
+    background-color: aqua;
+}
