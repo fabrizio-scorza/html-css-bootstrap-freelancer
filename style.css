@@ -30,6 +30,9 @@ a{
     border-top: 4px solid currentColor;
     border-radius: 999px;
 }
+.my_portfolio .my_star, .my_contact .my_star{
+    color:#2C3E50;    
+}
 
 
 /*HERO**************************************/
@@ -42,25 +45,6 @@ a{
     }
 }
 
-
-/*PORTFOLIO*********************************/
-.my_portfolio .my_star{
-    color:#2C3E50;    
-}
-.my_portfolio img{
-    width: 420px;
-    border-radius: 15px;
-}
-@media (min-width:768px){
-    .my_portfolio img{
-        max-width: 460px;
-    }
-}
-@media (min-width:992px){
-    .my_portfolio img{
-        max-width: 360px;
-    }
-}
 
 /*ABOUT************************************/
 .my_i{
