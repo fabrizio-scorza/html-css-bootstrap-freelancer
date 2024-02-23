@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Bootstrap Freelancer</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link
 			rel="stylesheet"
@@ -14,27 +14,27 @@
 		/>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="debug">
-        <header class="my-bg-dark">
+    <body>
+        <header class="my_header my_bg-dark my_text-white">
             <!-- header con logo e lista link -->
-            <div class="container-md">
-                <div class="row align-items-center justify-content-between p-3">
+            <div class="container-md"> 
+                <div class="row align-items-center justify-content-between py-3 px-md-3">
                     <div class="col-auto">
-                       logo
+                       <a class="link-light fs-4 fw-bold" href="">START BOOTSTAP</a>
                     </div>
                     <div class="col-auto">
-                            <ul class="d-none d-sm-flex m-0 p-0">
+                            <ul class="d-none d-sm-flex m-0 p-0 list-unstyled">
                                 <li class="pe-2">
-                                    link
+                                    <a class="link-light" href="">PORTFOLIO</a>
                                 </li>
                                 <li class="pe-2">
-                                    link
+                                    <a class="link-light" href="">ABOUT</a>
                                 </li>
                                 <li class="pe-2">
-                                    link
+                                    <a class="link-light" href="">CONTACT</a>
                                 </li>
                             </ul>
-                            <div class="d-block d-sm-none">
+                            <div class="d-block d-sm-none border border-white px-2">
                                 <i class="fa-solid fa-bars"></i>
                             </div>
                     </div>
@@ -42,57 +42,57 @@
             </div>
         </header>
         <main>
-            <section class="my-bg-green">
+            <section class="my_hero my-bg-green">
                 <!-- hero con immagine e titolo  -->
                 <div class="container-md">
                     <div class="d-flex justify-content-center align-items-center py-4">
                         <div class=" text-center">
                             <img src="./img/avatar.svg" alt="">
-                            <h1>TITOLONE</h1>
+                            <h1 class="fs1">TITOLONE</h1>
                             <i class="fa-solid fa-star"></i>
                             <p> COSE SCRITTE</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="my_portfolio">
                 <!-- sezione portfolio con le immagini -->
-                <div class="container-md">
+                <div class="container-md"> <!-- mette due container-->
                     <div class="text-center py-4">
                         <h2>TITOLO SEZIONE</h2>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 mb-4 ">
-                        <div class="col mb-3">
+                    <!-- qui il secondo container -->
+                    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 mb-4 ">
+                        <div class="col">
                             <img class="img-thumbnail" src="./img/cabin.png" alt="">
                         </div>
-                        <div class="col mb-3">
+                        <div class="col">
                             <img class="img-thumbnail" src="./img/cabin.png" alt="">
                         </div>
-                        <div class="col mb-3">
+                        <div class="col">
                             <img class="img-thumbnail" src="./img/cabin.png" alt="">
                         </div>
-                        <div class="col mb-3">
+                        <div class="col">
                             <img class="img-thumbnail" src="./img/cabin.png" alt="">
                         </div>
-                        <div class="col mb-3">
+                        <div class="col">
                             <img class="img-thumbnail" src="./img/cabin.png" alt="">
                         </div>
-                        <div class="col mb-3">
+                        <div class="col">
                             <img class="img-thumbnail" src="./img/cabin.png" alt="">
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="my-bg-green">
+            <section class="my_about my-bg-green">
                 <!-- sezione about con titolo e paragrafi di testo -->
                 <div class="container-md">
                     <div class="text-center py-4">
                         <h2>TITOLO SEZIONE</h2>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-2 justify-content-center py4">
-                        <div class="col-auto mb-3">paragrafo pieno di parole</div>
+                    <div class="row justify-content-center py4"> <!--non usa le colonne di bootstrap ma column count 2 in css-->
                         <div class="col-auto mb-3">paragrafo pieno di parole</div>
                     </div>
                     <div class="d-flex justify-content-center py-4">
@@ -100,19 +100,30 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="my_contat">
                 <!-- sezione contact me -->
-                
-            </section>
-            <section>
-                <!-- sezione dati personali e contatti social -->
-            </section>           
+                <div class="container-md text-center">
+                    <h2>TITOLO SEZIONE</h2>
+                    <form action="form">form</form>
+                </div>
+            </section>                  
         </main>
-        <footer class="my-bg-dark">
+        <footer class="my_footer">
+            <section class="my_info">
+                <div class="container-md">
+                    <div class="row row-cols-1 row-cols-md-3 mb-4 ">
+                        <div class="col">info</div>
+                        <div class="col">social</div>
+                        <div class="col">info</div>
+                    </div>            
+                </div>
+            </section>
+            <section class="my_colophone my-bg-dark">
             <!-- sezione copywrigth -->
-            <div class="container-md">
-                <p>copywrigth</p>
-            </div>
+                <div class="container-md text-center">
+                    <p>copywrigth</p>
+                </div>
+            </section>
         </footer>
     </body>
 </html>
