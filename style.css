@@ -56,6 +56,12 @@ a{
         column-count: 2;
     }
 }
+/*CONTACT************************************/
+.my_form{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
 
 /*COLOPHONE************************************/
 .my_colophone p{
