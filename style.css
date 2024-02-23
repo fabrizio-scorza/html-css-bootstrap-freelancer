@@ -23,13 +23,15 @@ a{
 }
 
 
-/*HERO**************************************/
+/*COMPONENTS*********************************/
 .my_star::after ,.my_star::before{
     content: '';
     width: 100px;
-    border-top: 4px solid white;
+    border-top: 4px solid currentColor;
     border-radius: 999px;
 }
+
+
 /*HERO**************************************/
 .my_hero img{
     max-width: 200px;
@@ -37,5 +39,23 @@ a{
 @media (min-width:768px){
     .my_hero img{
         max-width: 260px;
+    }
+}
+
+
+/*PORTFOLIO*********************************/
+.my_portfolio .my_star{
+    color:#2C3E50;    
+}
+.my_portfolio img{
+    max-width: 420px;
+    border-radius: 15px;
+}
+
+
+/*PORTFOLIO*********************************/
+@media (min-width:768px){
+    .my_about p{
+        column-count: 2;
     }
 }
