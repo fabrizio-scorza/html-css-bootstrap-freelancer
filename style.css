@@ -56,3 +56,8 @@ a{
         column-count: 2;
     }
 }
+
+/*COLOPHONE************************************/
+.my_colophone p{
+    font-size: 14px;
+}
