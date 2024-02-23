@@ -48,12 +48,25 @@ a{
     color:#2C3E50;    
 }
 .my_portfolio img{
-    max-width: 420px;
+    width: 420px;
     border-radius: 15px;
 }
+@media (min-width:768px){
+    .my_portfolio img{
+        max-width: 460px;
+    }
+}
+@media (min-width:992px){
+    .my_portfolio img{
+        max-width: 360px;
+    }
+}
 
+/*ABOUT************************************/
+.my_i{
+    padding-right: 10px;
+}
 
-/*PORTFOLIO*********************************/
 @media (min-width:768px){
     .my_about p{
         column-count: 2;
