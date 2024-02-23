@@ -63,6 +63,13 @@ a{
     border-right: none;
 }
 
+
+/*INFO*****************************************/
+.my_info{
+    background-color:#3A546D ;
+}
+
+
 /*COLOPHONE************************************/
 .my_colophone p{
     font-size: 14px;
